@@ -119,7 +119,6 @@ body {
 
 .typing-block {
     position: sticky;
-    margin: 0;
     margin-left: auto;
     margin-right: auto;
     z-index: 1000;
@@ -166,8 +165,12 @@ ul {
 }
 
 .person-link:hover {
-    background-color: rgb(55, 55, 55);
-    cursor: pointer;
+    background-color: rgb(66, 66, 66);
+    transition-duration: 300ms;
+}
+
+.person-link:active {
+    background-color: rgb(69, 69, 69);
     transition-duration: 300ms;
 }
 
@@ -187,6 +190,11 @@ ul {
     outline: none;
     margin: 5px;
     color: white;
+}
+
+.searchbar:active {
+    background-color: rgb(156, 154, 154);
+    transition-duration: 300ms;
 }
 
 .material-symbols-outlined {
@@ -209,6 +217,11 @@ ul {
     cursor: pointer;
 }
 
+.search-btn:active {
+    background-color: rgb(69, 69, 69);
+    transition-duration: 300ms;
+}
+
 .send-btn {
     text-align: center;
     border-radius: 1px;
@@ -221,7 +234,6 @@ ul {
     margin-left: 1px;
     margin-bottom: 10px;
     cursor: pointer;
-    
 }
 
 .message-preview {
