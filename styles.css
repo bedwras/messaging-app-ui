@@ -30,6 +30,8 @@
     top: 0;
     background-color: rgba(0, 0, 0, 0.532);
     backdrop-filter: blur(5px);
+    display: table;
+    width: 100%;
     
 }
 
@@ -99,6 +101,7 @@
     margin-bottom: 35px;
     color: white;
     margin-left: auto;
+    cursor: pointer;
 }
 
 .right-message {
@@ -110,6 +113,7 @@
     margin-bottom: 35px;
     color: white;
     margin-right: auto;
+    cursor: pointer;
 }
 
 body {
@@ -127,6 +131,7 @@ body {
     background-color: rgba(0, 0, 0, 0.532);
     backdrop-filter: blur(5px);
     display: flex;
+
 
     
 }
@@ -162,6 +167,7 @@ ul {
     padding: 10px;
     background-color: var(--dark-background);
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .person-link:hover {
@@ -170,7 +176,7 @@ ul {
 }
 
 .person-link:active {
-    background-color: rgb(69, 69, 69);
+    background-color: rgb(81, 81, 81);
     transition-duration: 300ms;
 }
 
@@ -219,7 +225,7 @@ ul {
 
 .search-btn:active {
     background-color: rgb(69, 69, 69);
-    transition-duration: 300ms;
+    transition-duration: 100ms;
 }
 
 .send-btn {
@@ -240,3 +246,4 @@ ul {
     font-weight: thin;
     user-select: none;
 }
+
